@@ -61,7 +61,7 @@
   .hover-zoom-img img.responsive{
     object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .richtext p{
     margin-bottom: 10px;

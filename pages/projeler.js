@@ -38,6 +38,8 @@ function Projeler({ airtabledata }) {
                             alt={item.Name}
                             width={120}
                             height={40}
+                            className="responsive"
+                            style={{ maxHeight: '220px' }}
                             // layout="responsive"
                             // objectFit="cover"
                             // placeholder="blur"

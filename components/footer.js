@@ -225,8 +225,21 @@ export default function Footer() {
             width={260}
             height={164}
           /> */}
-            <p className="text-brand-2 p-10">
+            <p className="text-brand-2 p-10 text-center">
               © 2021 Sibel Ürün®. Tüm Hakları Saklıdır.
+              <br />
+              <small>
+                made by{' '}
+                <a
+                  href="https://egriboz.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  egriboz
+                </a>
+              </small>
+              <br />
+              <small>[ datocms, airtable, nextjs ]</small>
             </p>
           </div>
           {/* <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">

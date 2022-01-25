@@ -12,7 +12,7 @@ function A({ children, href, blank, className, ...props }) {
     <a
       href={href}
       {...isBlank}
-      className={cn('hover:underline', className)}
+      className={cn('hover:no-underline', className)}
       {...props}
     >
       {children}

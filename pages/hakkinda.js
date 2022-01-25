@@ -74,7 +74,7 @@ function About({ data }) {
               paddingTop: '30px',
               paddingBottom: '30px',
               width: '100%',
-              height: '360px'
+              height: '560px'
             }}
           >
             <svg
@@ -163,7 +163,7 @@ function About({ data }) {
               <A
                 blank
                 href="http://urunmimarlik.com"
-                className="rounded-md bg-transparent text-s text-white py-4 px-6 border border-brand-1 border-opacity-10  hover:border-opacity-50 font-bold font-sans hover:no-underline"
+                className="rounded-md bg-transparent text-s text-white py-4 px-6 border border-brand-1 border-opacity-10  hover:border-opacity-50 font-bold font-sans"
               >
                 urunmimarlik.com
               </A>
