@@ -1,4 +1,4 @@
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import Link from 'next/link'
 import Container from './container'
 import Social from './social'
@@ -213,7 +213,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col text-sm items-center">
-            <NextImage
+            <img
               src="/static/images/sibelurun-logo.png"
               alt="Sibel Ürün"
               width={140}

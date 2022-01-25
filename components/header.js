@@ -1,7 +1,7 @@
 import Container from '../components/container'
 import Hamburger from '../components/hamburger'
 import { useState } from 'react'
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import Link from 'next/link'
 import Social from './social'
 
@@ -24,7 +24,7 @@ export default function Header() {
               width={99}
               height={99}
             /> */}
-              <NextImage
+              <img
                 src="/static/images/sibelurun-logo-text.png"
                 alt="Sibel Ürün"
                 width={160}

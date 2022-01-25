@@ -9,13 +9,13 @@ function Test({ airtabledata }) {
             <div key={item.Id}>
               {item.Photo && (
                 <a href={item.Photo[0].thumbnails.full.url}>
-                  <NextImage
+                  <img
                     src={item.Photo[0].thumbnails.large.url}
                     alt={item.Name}
                     width={120}
                     height={80}
-                    layout="responsive"
-                    objectFit="cover"
+                    // layout="responsive"
+                    // objectFit="cover"
                     srl_gallery_image="true"
                   />
                 </a>

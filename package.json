@@ -29,12 +29,12 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
+    "@tailwindcss/jit": "^0.1.18",
     "@tailwindcss/typography": "^0.4.0",
     "css-loader": "^4.2.0",
     "dotenv": "8.2.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.3.0",
-    "tailwindcss": "^2.1.2",
-    "@tailwindcss/jit": "^0.1.18",
+    "tailwindcss": "^2.1.2"
   }
 }

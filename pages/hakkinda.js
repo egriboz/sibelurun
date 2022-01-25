@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import Container from '../components/container'
 import Layout from '../components/layout'
 import A from '../components/a'
@@ -45,15 +45,16 @@ function About({ data }) {
 
               <div className="grid md:pt-10 md:col-span-3 col-span-1 mb-10">
                 <div className="hover-zoom-img relative bg-accent-3">
-                  <NextImage
+                  <img
                     src={data[0].Photo[0].thumbnails.full.url}
                     alt="Sibel Ürün"
                     width={660}
                     height={660}
-                    layout="responsive"
-                    placeholder="blur"
-                    blurDataURL={data[0].Photo[0].thumbnails.small.url}
-                    objectFit="cover"
+                    className="responsive"
+                    // layout="responsive"
+                    // placeholder="blur"
+                    // blurDataURL={data[0].Photo[0].thumbnails.small.url}
+                    // objectFit="cover"
                   />
                 </div>
               </div>

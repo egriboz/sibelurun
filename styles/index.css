@@ -58,6 +58,11 @@
   .hover-zoom-img:hover img{
     transform: scale(1.07);
   }
+  .hover-zoom-img img.responsive{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
   .richtext p{
     margin-bottom: 10px;
   }
@@ -85,6 +90,24 @@
   }
   .blog-linear-gradient{
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250, 249, 246,1) 100%);
+  }
+  .projectsGridWrapper{
+
+  }
+  .projectsGridWrapper > div{
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+  .projectsGridWrapper > div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .projectsGridWrapper > div a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   @media (min-width: 768px) {
   .home-projects-grid > div:nth-child(2) {

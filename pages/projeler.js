@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import Container from '../components/container'
 import Layout from '../components/layout'
 import { getTable } from '../lib/airtableOrder'
@@ -33,15 +33,15 @@ function Projeler({ airtabledata }) {
                           <p className="overlay-name is-projects text-2xl font-bold md:text-2xl">
                             {item.Name}
                           </p>
-                          <NextImage
+                          <img
                             src={item.Photo[0].thumbnails.large.url}
                             alt={item.Name}
                             width={120}
                             height={40}
-                            layout="responsive"
-                            objectFit="cover"
-                            placeholder="blur"
-                            blurDataURL={item.Photo[0].thumbnails.small.url}
+                            // layout="responsive"
+                            // objectFit="cover"
+                            // placeholder="blur"
+                            // blurDataURL={item.Photo[0].thumbnails.small.url}
                             srl_gallery_image="true"
                           />
                         </a>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import Container from '../components/container'
 import Layout from '../components/layout'
 import Social from '../components/social'

@@ -3,7 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import SectionSeparator from '../components/section-separator'
-import NextImage from 'next/image'
+// import NextImage from 'next/image'
 import PageTransition from '../components/page-transition'
 import { renderMetaTags, useQuerySubscription } from 'react-datocms'
 import Container from '../components/container'
@@ -113,13 +113,13 @@ export default function Index({ subscription, airtabledata, airtabledataOS }) {
             <section className="md:px-6 md:py-6 px-0 py-0">
               <div className="grid md:grid-cols-2 gap-6 rounded-l-none md:rounded-l-2xl overflow-hidden">
                 <div className="hover-zoom-img relative bg-accent-3">
-                  <NextImage
+                  <img
                     src="/static/images/su.jpg"
                     alt="Sibel Ürün"
                     width={660}
                     height={660}
-                    layout="responsive"
-                    objectFit="cover"
+                    // layout="responsive"
+                    // objectFit="cover"
                   />
                 </div>
 
@@ -175,15 +175,16 @@ export default function Index({ subscription, airtabledata, airtabledataOS }) {
                       <p className="overlay-name text-2xl font-bold md:text-3xl">
                         {item.Name}
                       </p>
-                      <NextImage
+                      <img
                         src={item.Photo[0].thumbnails.large.url}
                         alt={item.Name}
                         width={120}
                         height={80}
-                        layout="responsive"
-                        objectFit="cover"
-                        placeholder="blur"
-                        blurDataURL={item.Photo[0].thumbnails.small.url}
+                        className="responsive"
+                        // layout="responsive"
+                        // objectFit="cover"
+                        // placeholder="blur"
+                        // blurDataURL={item.Photo[0].thumbnails.small.url}
                         srl_gallery_image="true"
                       />
                     </>
