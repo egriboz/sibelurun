@@ -2,7 +2,7 @@ module.exports = {
   title: 'Sibel Ürün',
   description: 'İç mimar',
   lang: 'tr',
-  siteUrl: 'https://sibelurun.vercel.app',
+  siteUrl: 'https://sibelurun-egriboz.vercel.app/',
   googleAnalytic: '',
   author: {
     email: 'sibel@sibelurun.com',
