@@ -23,7 +23,9 @@ const nextConfig = (phase) => {
 
   return {
     env: {
-      API_URL: isDev ? 'http://localhost:3000' : 'https://sibelurun.vercel.app'
+      API_URL: isDev
+        ? 'http://localhost:3000'
+        : 'http://sibelurun-egriboz.vercel.app'
     },
     images: {
       domains: ['dl.airtable.com', 'www.datocms-assets.com']
